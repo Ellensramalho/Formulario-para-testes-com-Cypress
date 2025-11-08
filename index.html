@@ -9,109 +9,126 @@
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
     <header>
-        <h1>Formulário para testes</h1>
+      <h1>Formulário para testes</h1>
     </header>
 
     <main>
-        <form id="cadastroForm">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-            <br><br>
+      <form id="cadastroForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        <br><br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
-            <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+        <br><br>
 
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura" required>
-            <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura" required>
+        <br><br>
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
-            <br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+        <br><br>
 
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" min="0" placeholder="Informe sua idade">
-            <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="0" placeholder="Informe sua idade">
+        <br><br>
 
-            <label for="dataNasc">Data de Nascimento:</label>
-            <input type="date" id="dataNasc" name="dataNasc" placeholder="Selecione sua data de nascimento">
-            <br><br>
+        <label for="dataNasc">Data de Nascimento:</label>
+        <input type="date" id="dataNasc" name="dataNasc" placeholder="Selecione sua data de nascimento">
+        <br><br>
 
-            <label>Gênero:</label>
-            <input type="radio" id="masculino" name="genero" value="masculino">
-            <label for="masculino">Masculino</label>
-            <input type="radio" id="feminino" name="genero" value="feminino">
-            <label for="feminino">Feminino</label>
-            <input type="radio" id="outro-genero" name="genero" value="outro">
-            <label for="outro-genero">Outro</label>
-            <br><br>
+        <label>Gênero:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="outro-genero" name="genero" value="outro">
+        <label for="outro-genero">Outro</label>
+        <br><br>
 
-            <label for="opcoes">Curso:</label>
-            <select id="opcoes" name="opcoes" required>
-                <option value="">Selecione uma opção</option>
-                <option value="opcao1">Ciência da Computação</option>
-                <option value="opcao2">Matemática</option>
-                <option value="opcao3">Física</option>
-                <option value="opcao4">Engenharia</option>
-            </select>
-            <br><br>
+        <label for="opcoes">Curso:</label>
+        <select id="opcoes" name="opcoes" required>
+          <option value="">Selecione uma opção</option>
+          <option value="opcao1">Ciência da Computação</option>
+          <option value="opcao2">Matemática</option>
+          <option value="opcao3">Física</option>
+          <option value="opcao4">Engenharia</option>
+        </select>
+        <br><br>
 
-            <label for="arquivo">Envie um arquivo:</label>
-            <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx">
-            <br><br>
+        <label for="arquivo">Envie um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx">
+        <br><br>
 
-            <label for="nivelSatisfacao">Nível de satisfação (0 a 10):</label>
-            <input type="range" id="nivelSatisfacao" name="nivelSatisfacao" min="0" max="10">
-            <br><br>
+        <label for="nivelSatisfacao">Nível de satisfação (0 a 10):</label>
+        <input type="range" id="nivelSatisfacao" name="nivelSatisfacao" min="0" max="10">
+        <br><br>
 
-            <label for="site">Site pessoal:</label>
-            <input type="url" id="site" name="site" placeholder="https://exemplo.com">
-            <br><br>
+        <label for="site">Site pessoal:</label>
+        <input type="url" id="site" name="site" placeholder="https://exemplo.com">
+        <br><br>
 
-            <label>Linguagens favoritas:</label><br><br>
+        <label>Linguagens favoritas:</label><br><br>
 
-            <input type="checkbox" id="js" name="linguagens" value="JavaScript">
-            <label for="js">JavaScript</label><br>
+        <input type="checkbox" id="js" name="linguagens" value="JavaScript">
+        <label for="js">JavaScript</label><br>
 
-            <input type="checkbox" id="py" name="linguagens" value="Python">
-            <label for="py">Python</label><br>
+        <input type="checkbox" id="py" name="linguagens" value="Python">
+        <label for="py">Python</label><br>
 
-            <input type="checkbox" id="java" name="linguagens" value="Java">
-            <label for="java">Java</label><br>
+        <input type="checkbox" id="java" name="linguagens" value="Java">
+        <label for="java">Java</label><br>
 
-            <input type="checkbox" id="outro-ling" name="linguagens" value="Outro">
-            <label for="outro-ling">Outro</label>
-            <br><br>
+        <input type="checkbox" id="outro-ling" name="linguagens" value="Outro">
+        <label for="outro-ling">Outro</label>
+        <br><br>
 
-            <label for="comentarios">Comentários:</label><br>
-            <textarea id="comentarios" name="comentarios" rows="4" cols="50"
-                placeholder="Deixe seu comentário."></textarea>
-            <br><br>
+        <label for="comentarios">Comentários:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe seu comentário."></textarea>
+        <br><br>
 
-            <label>
-                <input type="checkbox" id="termos" name="termos" required>
-                Aceito os termos e condições
-            </label>
-            <br><br>
+        <label>
+          <input type="checkbox" id="termos" name="termos" required>
+          Aceito os termos e condições
+        </label>
+        <br><br>
 
-            <input type="hidden" id="token" name="token" value="123456ABC">
+        <input type="hidden" id="token" name="token" value="123456ABC">
 
+        <div class="botoes">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
 
-            <div class="botoes">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </div>
-        </form>
-
-        <p class="mensagem" id="mensagem"></p>
+      <p class="mensagem" id="mensagem"></p>
     </main>
-</div>
-    <footer>
-        &copy; 2025 - Teste com Cypress
-    </footer>
+  </div>
+
+  <footer>
+    &copy; 2025 - Teste com Cypress
+  </footer>
+
+  <div id="tooltip" class="tooltip">Formulário enviado com sucesso!</div>
+
+  <script>
+    const form = document.getElementById('cadastroForm');
+    const tooltip = document.getElementById('tooltip');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); 
+      tooltip.classList.add('show');
+
+      setTimeout(() => {
+        tooltip.classList.remove('show');
+      }, 3000);
+
+      form.reset();
+    });
+  </script>
 </body>
 
 </html>
