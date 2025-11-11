@@ -134,6 +134,15 @@
       emailInput.value = emailInput.value.toLowerCase();
     });
 
+  const telefoneInput = document.getElementById('telefone');
+  const erro = document.getElementById('erro-telefone');
+
+  telefoneInput.addEventListener('input', () => {
+    telefoneInput.value = telefoneInput.value.replace(/[A-Za-z]/g, '');
+
+  });
+</script>
+
   </script>
 </body>
 
