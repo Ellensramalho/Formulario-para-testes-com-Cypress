@@ -138,12 +138,16 @@
   const erro = document.getElementById('erro-telefone');
 
   telefoneInput.addEventListener('input', () => {
-    telefoneInput.value = telefoneInput.value.replace(/[A-Za-z]/g, '');
+    telefoneInput.value = telefoneInput.value.replace(/[^0-9()-]/g, '');
+
+    if (/[^0-9()-]/.test(telefoneInput.value)) {
+      erro.textContent = 'Use apenas números, parênteses e traços.';
+    } else {
+      erro.textContent = '';
+    }
 
   });
 </script>
-
-  </script>
 </body>
 
 </html>
